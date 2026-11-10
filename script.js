@@ -12,9 +12,9 @@ function celebrate() {
     setTimeout(() => {
         document.body.classList.remove("dark");
         messageBox.innerHTML = `
-            <h1>Selamat Ulang Tahun, Jen!</h1>
+            <h1>Selamat Ulang Tahun, Bella!</h1>
             <p>Semoga hari-harimu selalu penuh kebahagiaan 🤍</p>
-            <button class="celebrate-btn" onclick="celebrate()">🎉 Rayakan! 🎉</button>
+            <button class="celebrate-btn" onclick="celebrate()">🎉 Celebrate! 🎉</button>
         `;
     }, 3500);
 }
